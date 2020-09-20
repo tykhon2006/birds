@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.form-wrap > p{
+	margin-left: 10px;
+}
+label{
+	display: block;
+	font-size: 15px; 
+	margin-bottom: 8px;
+}
+input[type="text"], input[type="email"] {
+	border-width: 0;
+	margin: 0;
+	width: 96%;
+	padding: 10px 15px;
+	background: #e6e6e6;
+}
+.radio input{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.radio span{
+	display: inline-block;
+	vertical-align: middle;
+}
+select { 
+	width: 90%;
+	cursor: pointer;
+	padding: 10px 15px;
+	outline: 0;
+	border: 0;
+	background: #e6e6e6;
+	color: #7b7b7b;
+}
+.button {
+	padding: 10px 0;
+	border-width: 0;
+	display: block;
+	width: 120px;
+	margin: 25px ;
+	background: #60e6c5;
+	color: white;
+	font-size: 15px;
+	margin-left: 45%;
+}
