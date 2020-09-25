@@ -55,7 +55,7 @@ body {
 .div-form{
 	position: fixed;
 	top: 20px;
-	left: 85%;
+	left: 55%;
 }
 .button-form {
 	width: 100px;
@@ -320,9 +320,6 @@ i {
 	}
 }
 @media screen and (max-width: 700px){
-	#main{
-		flex-direction: column;
-	}
 	.div-form{
 		position: fixed;
 		top: 25px;
